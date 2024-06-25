@@ -1,0 +1,38 @@
+<html>
+<head>
+<style>
+        
+		
+		.ancestors * { 
+            display: block;
+            border: 2px solid lightgrey;
+            color: lightgrey;
+            padding: 5px;
+            margin: 15px;
+           }
+</style>
+		
+            
+        <script src = "file:///D:/aryan%20saini/jquery%20class5.html"></script>
+			
+		<script>
+		
+			$(document).ready(function(){
+               $("span").parents("ul").css({"background-color": "red", "border": "2px solid red"});
+            });
+			
+</script>
+</head>
+<body>
+
+           <body class="ancestors">body (great-great-grandparent)
+           <div style="width:500px;">div (great-grandparent)
+          <ul>ul (grandparent)  
+         <li>li (aryan)
+        <span>span</span>
+      </li>
+    </ul>   
+  </div>
+</body>
+
+</html>
